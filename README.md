@@ -14,6 +14,8 @@ You need to do two things to set up :
 function fish_greeting
   fish PATH_TO_THE_FOLDER_CONTAINING/fish.sh
 end
+
+funcsave fish_greeting
 ```
 
 In my case, I have a `pika` folder on my Home directory.
